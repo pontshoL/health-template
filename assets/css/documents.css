@@ -1,0 +1,192 @@
+.inner-page {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+    max-width: 1500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+    top: -70px; /* Adjust the value as needed to move the container up */
+    margin-bottom: 20px;
+}
+.folder {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    height: 100px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    gap: 100px;
+}
+.folder:hover {
+    background-color: #e0e0e0;
+}
+.folder img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.folder a {
+    text-decoration: none;
+    color: #106b32;
+    font-weight: bold;
+}
+h1 {
+    margin-top: 20px;
+}
+
+/* CLINICS */
+
+
+.container_3 {
+    display: flex;
+    width: 100%;
+    
+}
+
+.sidebar {
+    width: 20%;   
+    background-color: #f9f9f9; /* Transparent green background */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #106b32;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+#clinic-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#clinic-info th, #clinic-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#clinic-info th {
+    background-color: #4CAF50;
+    color: #106b32;
+}
+@media print {
+    .container {
+        display: block; /* Ensure it's displayed as a block for print */
+        page-break-before: always; /* Force page break before .container */
+    }
+
+    .clinic-info {
+        page-break-inside: avoid; /* Avoid breaking inside the clinic-info div */
+    }
+}
+
+
+/* ADVERTISED TENDERS */
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.tenders-table {
+    width: 80%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tenders-table h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th {
+    background: #ffcc00;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tbody tr:hover {
+    background: #f1f1f1;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+

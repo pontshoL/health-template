@@ -1,0 +1,117 @@
+
+.container_1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #f0f0f0;
+    color: #106b32;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    top: 40px; /* Adjust this value as needed */
+    padding-bottom: 40px; /* Adjust this value as needed */
+}
+
+.container_1 h1, h2, h3, h4 {
+    color: #106b32;
+}
+
+.container_1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container_1 h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.container_1 h3 {
+    margin-top: 20px;
+}
+
+.subsection h4 {
+    margin-top: 15px;
+}
+
+ul {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+.subsection {
+    margin-bottom: 20px;
+}
+
+
+ .container_2 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            flex: 0 0 calc(50% - 20px); /* Adjusts to two columns */
+            text-align: center;
+            transition: transform 0.2s;
+            cursor: pointer;
+            box-sizing: border-box;
+            background-color: rgba(0, 128, 0, 0.2); /* Transparent green background */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .card h2 {
+            color: #106b32;
+        }
+
+        .card p {
+            color: #333;
+        }
+
+        .card-content {
+            display: none;
+            text-align: left;
+        }
+
+        .card.active .card-content {
+            display: block;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            list-style-type: disc;
+        }
+        .card h2 i {
+            margin-right: 15px; /* Adjust spacing between icon and text */
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 100%; /* Stacks cards in one column on small screens */
+            }
+        }

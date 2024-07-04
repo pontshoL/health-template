@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .filter-dropdown {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .notices-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .notice {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .notice img {
+    width: 100%;
+  }
+  
+  .notice-info {
+    padding: 5px;
+  }
+  
+  .notice-info h2 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .notice-info p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon-download::before {
+    content: url('assets/img/download.png');
+  }
+  
+  .icon-view::before {
+    content: url('view-icon.png');
+  }
+  
+  .icon-audio::before {
+    content: url('audio-icon.png');
+  }
